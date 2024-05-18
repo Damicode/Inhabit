@@ -1,6 +1,6 @@
 
 
-instance_type   = "t2.micro"
+instance_type   = "t2.medium"
 key_name_tag        = "dev_newkey_pair.pem"
 key_name_tag_pub        = "dev_newkey_pair.pub"
 aws_instance_tag    = "Inhabit_dev_instance"

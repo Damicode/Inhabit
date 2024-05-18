@@ -81,7 +81,7 @@ resource "null_resource" "commander" {
         "pwd",
       "sudo chmod +x /tmp/build_agent.sh",
       "sh /tmp/build_agent.sh" ,
-      "cat /var/jenkins_home/secrets/initialAdminPassword"
+     
 
      ]
     
@@ -119,7 +119,7 @@ output "available_zones" {
 
 output "web_url" {
 
-    value = join("",[aws_instance.damier_web_instance.public_dns,":", "8080"])
+    value = join("",["${aws_instance.damier_web_instance.public_dns}",":", "8080"])
   
 }
 
