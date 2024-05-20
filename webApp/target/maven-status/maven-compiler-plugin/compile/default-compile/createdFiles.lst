@@ -1,0 +1,4 @@
+com\inhabit\webApp\MODELE\Participants.class
+com\inhabit\webApp\SERVICES\PaticipantController.class
+com\inhabit\webApp\REPOSITORY\ParticipantsRepo.class
+com\inhabit\webApp\WebAppApplication.class
